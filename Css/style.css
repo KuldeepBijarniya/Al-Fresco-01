@@ -1,0 +1,290 @@
+*{
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;
+}
+
+header{
+  background-color: gray;
+  /* height: 60px; */
+  margin: 0px 12px;
+}
+
+ul{
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  /* padding-left: 135px; */
+  font-size: 30px;
+  color: white;
+  /* margin: 10px; */
+  padding:16px 0px 12px 0px;
+  width: 25%;
+}
+li a{
+ text-decoration: none;
+ color: white;
+}
+li:hover{
+ border-bottom: 2px solid white;
+ margin-bottom: 6px;
+ font-size: 36px;
+}
+.photo1{
+  display: inline-block;
+}
+.photo1 img{
+  width: 740px;
+  margin-bottom: 80px;
+}
+
+.photo2{
+  display: inline-block;
+  position: relative;
+}
+ h1.al{
+   position: absolute;
+   top: 10%;
+   left: 35%;
+   color: gray;
+   font-size: 56px;
+ }
+ h2.caf{
+   position: absolute;
+   top: 21%;
+   left: 29%;
+   color: gray;
+   font-size: 42px;
+ }
+ img.logores{
+  position: absolute;
+  width: 233px;
+  left: 35%;
+  top: 37%;
+ }
+ img.logores:hover{
+  transform: scale(1.2);
+  transition: all 0.4s;
+ }
+.photo2 img.p2{
+  width: 751px;
+  height: 731px;
+  margin-top: 8px;
+  margin-bottom: 80px;
+  position: relative;
+}
+button.lgbt a{
+  text-decoration: none;
+}
+button.lgbt{
+  position: absolute;
+  top: 76%;
+  left: 30%;
+  width: 300px;
+  height: 60px;
+  border-radius: 18px;
+  font-size: 24px;
+}
+button.lgbt:hover{
+background-color: rgb(229, 247, 166);
+}
+main{
+  margin: 0px 12px -46px 12px;
+  background-image: linear-gradient(to left, rgba(184, 184, 184, 0.8), rgba(212, 212, 212, 0.8));
+}
+.adj{
+  white-space: nowrap;
+}
+h1.ourspec{
+  padding-left: 515px;
+  color: rgb(201, 172, 172);
+  font-size: 56px;
+}
+h2.ourxp{
+  padding-left: 550px;
+  padding-top: 12px;
+  color: gray;
+  font-size: 30px;
+}
+h2.sus{
+  margin: 20px 0px 2px 10px;
+color: darkslategray;
+font-size: 30px;
+display: inline-block;
+position: relative;
+}
+h2.sus:hover{
+  transform: scale(1.06);
+  transition: all 0.4s;
+}
+section.picr1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+}
+.pic1{
+width: 27%;
+background-image: linear-gradient(to right, orange, rgb(206, 134, 0));
+border-radius: 10px;
+margin: 60px 0px;
+}
+.pic1:hover{
+    transform: scale(1.06);
+    transition: all 0.3s;
+}
+
+.pic1 img{
+  width: 96%;
+  margin: 10px 0px 2px 8px;
+  height: 259px;
+}
+.pic2{
+  width: 27%;
+  height: 433px;
+  background-image: linear-gradient(to right, orange, rgb(206, 134, 0));
+  border-radius: 10px;
+  margin: 60px 70px;
+  }
+ .pic2:hover{
+  transform: scale(1.06);
+  transition: all 0.3s;
+ }
+  .pic2 img{
+    width: 96%;
+    margin: 10px 0px 2px 8px;
+  }
+ .pic3{
+  width: 27%;
+  height: 433px;
+  background-image: linear-gradient(to right, orange, rgb(206, 134, 0));
+  border-radius: 10px;
+  margin: 60px 0px;
+  }
+  .pic3:hover{
+    transform: scale(1.06);
+    transition: all 0.3s;
+   }
+  .pic3 img{
+    width: 96%;
+    margin: 10px 0px 2px 8px;
+  } 
+
+button.add{
+  width: 12%;
+  height: 10%;
+  float: right;
+  margin-right: 8%;
+  margin-top: 3%;
+}
+button.add:hover{
+  transform: scale(1.06);
+  transition: all 0.3s;
+}
+
+.c1{
+  width: 96%;
+margin: 10px 0px 2px 10px;
+}
+
+main form{
+  padding: 30px 163px;
+margin: 52px auto;
+width: 678px;
+background-color: rgb(245, 245, 245, 0.8);
+border-radius: 12px;
+}
+
+#fullname{
+  padding: 4px;
+  margin: 7px;
+  width: 240px;
+  border: 2px solid black;
+}
+#email{
+  padding: 4px;
+  margin: 28px;
+  width: 240px;
+  border: 2px solid black;
+}
+#male{
+  margin-left: 20px;
+}
+#female{
+  margin-left: 12px;
+}
+#rev{
+    padding: 43px;
+    width: 235px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+#rat1{
+  margin: 19px 6px;
+}
+#rat2{
+  margin:6px;
+}
+#rat3{
+  margin:6px;
+}
+main button.sbmt{
+  margin: 12px 110px;
+  width: 127px;
+  height: 56px;
+}
+footer{
+  background-image: linear-gradient(to left, rgba(184, 184, 184, 0.8), rgba(212, 212, 212, 0.8));
+  margin: 0px 12px;
+}
+.cin1{
+  padding-left: 660px;
+  padding-bottom: 9px;
+  padding-top: 12px;
+  font-size: 28px;
+}
+.cin2{
+  padding-left: 660px;
+  font-size: 28px;
+}
+.p{
+  padding-left: 735px;
+padding-top: 12px;
+font-size: 22px;
+}
+div.ctcs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fb img{
+  width: 76px;
+  margin: 12px;
+}
+.insta img{
+  width: 52px;
+  margin: 12px;
+}
+.whats img{
+  width: 64px;
+  margin: 12px;
+}
+.twt img{
+  width: 64px;
+  margin: 12px;
+}
+.lin img{
+  width: 38px;
+  margin: 12px;
+}
+footer div.bt a{
+  padding-left: 1325px;
+}
+#logotop{
+    width: 102px;
+    height: 37px;
+}
